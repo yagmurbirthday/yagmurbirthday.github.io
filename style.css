@@ -1,0 +1,35 @@
+html{
+    color: #FF0000;
+    font-family: "Comic Sans MS";
+}
+body {
+    background-image: url("Assets/cake.jpg");
+}
+
+.separator{
+    margin-bottom: 90px;
+}
+
+.panel{
+    background-image: url("Assets/colours.gif");
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+.body{
+    padding: 15px;
+}
+.header-image{
+    height: 100px;
+    border-radius: 10px;
+}
+.header-table{
+    border-collapse: collapse;
+    border: none;
+    padding: 0px;
+}
+#footer{
+    padding: 15px;
+    float: right;
+}

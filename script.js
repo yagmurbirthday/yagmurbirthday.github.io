@@ -40,8 +40,7 @@ marqueeInit({
 	uniqueid: 'mycrawler',
 	style: {
 		'padding': '2px',
-		'width': '100%',
-		'height': '180px'
+		'width': '100%'
 	},
 	inc: 5, //speed - pixel increment for each iteration of this marquee's movement
 	mouse: 'cursor driven', //mouseover behavior ('pause' 'cursor driven' or false)
@@ -55,8 +54,21 @@ marqueeInit({
 	uniqueid: 'mycrawler2',
 	style: {
 		'padding': '2px',
+		'width': '100%'
+	},
+	inc: 5, //speed - pixel increment for each iteration of this marquee's movement
+	mouse: 'cursor driven', //mouseover behavior ('pause' 'cursor driven' or false)
+	moveatleast: 2,
+	neutral: 150,
+	savedirection: true,
+	random: true
+});
+
+marqueeInit({
+	uniqueid: 'mycrawler3',
+	style: {
+		'padding': '2px',
 		'width': '100%',
-		'height': '180px'
 	},
 	inc: 5, //speed - pixel increment for each iteration of this marquee's movement
 	mouse: 'cursor driven', //mouseover behavior ('pause' 'cursor driven' or false)
